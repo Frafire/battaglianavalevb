@@ -6,17 +6,25 @@ Module Program
         Randomize()
         'variabili
         Dim giocatore As String
-        Dim Ngiocatore As String
-        Dim congame As Char
+        Dim colpo As String
+        Dim portaerei  As string 
+        Dim corvetta As string
         Dim computer As String
+        Dim cacciatorpediniere As String
         Dim MyValue As Integer
 
         Console.WriteLine("inserisci il nome giocatore")
         Ngiocatore = Console.ReadLine()
         'Il DO che finisce con LOOP fa continuare il programma fino alla sua chiusura
-        Do
-            Console.WriteLine("Scegli carta,forbice,sasso")
-            giocatore = Console.ReadLine()
+        console.writeline(" 
+              1 2 3 4 5 6 7 8 
+            A
+            B
+            C
+            D
+            E ")    
+            Console.WriteLine("inserisci coordinate  portaerei")
+            portaerei = Console.ReadLine()
             'controlla che tu abbia scritto corretto
             If "carta" = giocatore Then
             Else
