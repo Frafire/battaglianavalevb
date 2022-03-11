@@ -19,11 +19,10 @@ Module Program
             C
             D
             E
-            F
            ")
 
         assex = Int((9 * Rnd()) + 1)
-        assey = Int((6 * Rnd()) + 1)
+        assey = Int((5 * Rnd()) + 1)
         If assey = "1" Then
             If assex = "1" Then
                 coordinate = "A1"
@@ -139,9 +138,90 @@ Module Program
                             End If
                         End If
                     End If
+                Else
+                    If assey = "4" Then
+                        If assex = "1" Then
+                            coordinate = "D1"
+                        Else
+                            If assex = "2" Then
+                                coordinate = "D2"
+                            Else
+                                If assex = "3" Then
+                                    coordinate = "D3"
+                                Else
+                                    If assex = "4" Then
+                                        coordinate = "D4"
+                                    Else
+                                        If assex = "5" Then
+                                            coordinate = "D5"
+                                        Else
+                                            If assex = "6" Then
+                                                coordinate = "D6"
+                                            Else
+
+                                                If assex = "7" Then
+                                                    coordinate = "D7"
+                                                Else
+
+                                                    If assex = "8" Then
+                                                        coordinate = "D8"
+                                                    Else
+                                                        coordinate = "D9"
+                                                    End If
+
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    Else
+                        If assey = "5" Then
+                            If assex = "1" Then
+                                coordinate = "E1"
+                            Else
+                                If assex = "2" Then
+                                    coordinate = "E2"
+                                Else
+                                    If assex = "3" Then
+                                        coordinate = "E3"
+                                    Else
+                                        If assex = "4" Then
+                                            coordinate = "E4"
+                                        Else
+                                            If assex = "5" Then
+                                                coordinate = "E5"
+                                            Else
+                                                If assex = "6" Then
+                                                    coordinate = "E6"
+                                                Else
+
+                                                    If assex = "7" Then
+                                                        coordinate = "E7"
+                                                    Else
+
+                                                        If assex = "8" Then
+                                                            coordinate = "E8"
+                                                        Else
+                                                            coordinate = "E9"
+                                                        End If
+                                                    End If
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    End If
+
                 End If
             End If
         End If
+        'FINE VARIABILI SCELTA COMPUTER
+
+
 
 
 
