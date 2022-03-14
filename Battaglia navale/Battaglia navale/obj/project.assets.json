@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\giova\\.nuget\\packages\\": {}
+    "C:\\Users\\DANUT.DENIS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giova\\Downloads\\battaglianavalevb-Frafire-patch-2-2\\battaglianavalevb-Frafire-patch-2-2\\Battaglia navale\\Battaglia navale\\Battaglia navale.vbproj",
+      "projectUniqueName": "Z:\\visual basic\\battaglianavalevb-Frafire-patch-3\\Battaglia navale\\Battaglia navale\\Battaglia navale.vbproj",
       "projectName": "Battaglia navale",
-      "projectPath": "C:\\Users\\giova\\Downloads\\battaglianavalevb-Frafire-patch-2-2\\battaglianavalevb-Frafire-patch-2-2\\Battaglia navale\\Battaglia navale\\Battaglia navale.vbproj",
-      "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giova\\Downloads\\battaglianavalevb-Frafire-patch-2-2\\battaglianavalevb-Frafire-patch-2-2\\Battaglia navale\\Battaglia navale\\obj\\",
+      "projectPath": "Z:\\visual basic\\battaglianavalevb-Frafire-patch-3\\Battaglia navale\\Battaglia navale\\Battaglia navale.vbproj",
+      "packagesPath": "C:\\Users\\DANUT.DENIS\\.nuget\\packages\\",
+      "outputPath": "Z:\\visual basic\\battaglianavalevb-Frafire-patch-3\\Battaglia navale\\Battaglia navale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DANUT.DENIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
