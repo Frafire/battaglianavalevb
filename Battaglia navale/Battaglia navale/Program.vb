@@ -23,6 +23,7 @@ Module Program
         Dim perdite As String
         Dim incro As String
         Dim rulesr As String
+        Dim acapo As String
 
         'regole del gioco
         rulesr = "Benvenuto nel gioco di battaglia navale, ecco le regole! 
@@ -650,79 +651,39 @@ Module Program
                 End If
             End If
         End If
-
-        'scelta computer
-        assex = Int((9 * Rnd()) + 1)
-        assey = Int((7 * Rnd()) + 1)
-        If assey = "1" Then
-            If assex = "1" Then
-                coordinate = "A1"
-            Else
-                If assex = "2" Then
-                    coordinate = "A2"
-                Else
-                    If assex = "3" Then
-                        coordinate = "A3"
-                    Else
-                        If assex = "4" Then
-                            coordinate = "A4"
-                        Else
-                            If assex = "5" Then
-                                coordinate = "A5"
-                            Else
-                                If assex = "6" Then
-                                    coordinate = "A6"
-                                Else
-
-                                    If assex = "7" Then
-                                        coordinate = "A7"
-                                    Else
-
-                                        If assex = "8" Then
-                                            coordinate = "A8"
-                                        Else
-                                            coordinate = "A9"
-
-
-                                        End If
-                                    End If
-                                End If
-                            End If
-                        End If
-                    End If
-
-                End If
-
-            End If
-        Else
-            If assey = "2" Then
+        Do
+            'scelta computer
+            assex = Int((9 * Rnd()) + 1)
+            assey = Int((7 * Rnd()) + 1)
+            If assey = "1" Then
                 If assex = "1" Then
-                    coordinate = "B1"
+                    coordinate = "A1"
                 Else
                     If assex = "2" Then
-                        coordinate = "B2"
+                        coordinate = "A2"
                     Else
                         If assex = "3" Then
-                            coordinate = "B3"
+                            coordinate = "A3"
                         Else
                             If assex = "4" Then
-                                coordinate = "B4"
+                                coordinate = "A4"
                             Else
                                 If assex = "5" Then
-                                    coordinate = "B5"
+                                    coordinate = "A5"
                                 Else
                                     If assex = "6" Then
-                                        coordinate = "B6"
+                                        coordinate = "A6"
                                     Else
 
                                         If assex = "7" Then
-                                            coordinate = "B7"
+                                            coordinate = "A7"
                                         Else
 
                                             If assex = "8" Then
-                                                coordinate = "B8"
+                                                coordinate = "A8"
                                             Else
-                                                coordinate = "B9"
+                                                coordinate = "A9"
+
 
                                             End If
                                         End If
@@ -730,37 +691,40 @@ Module Program
                                 End If
                             End If
                         End If
+
                     End If
+
                 End If
             Else
-                If assey = "3" Then
+                If assey = "2" Then
                     If assex = "1" Then
-                        coordinate = "C1"
+                        coordinate = "B1"
                     Else
                         If assex = "2" Then
-                            coordinate = "C2"
+                            coordinate = "B2"
                         Else
                             If assex = "3" Then
-                                coordinate = "C3"
+                                coordinate = "B3"
                             Else
                                 If assex = "4" Then
-                                    coordinate = "C4"
+                                    coordinate = "B4"
                                 Else
                                     If assex = "5" Then
-                                        coordinate = "C5"
+                                        coordinate = "B5"
                                     Else
                                         If assex = "6" Then
-                                            coordinate = "C6"
+                                            coordinate = "B6"
                                         Else
 
                                             If assex = "7" Then
-                                                coordinate = "C7"
+                                                coordinate = "B7"
                                             Else
 
                                                 If assex = "8" Then
-                                                    coordinate = "C8"
+                                                    coordinate = "B8"
                                                 Else
-                                                    coordinate = "C9"
+                                                    coordinate = "B9"
+
                                                 End If
                                             End If
                                         End If
@@ -770,36 +734,35 @@ Module Program
                         End If
                     End If
                 Else
-                    If assey = "4" Then
+                    If assey = "3" Then
                         If assex = "1" Then
-                            coordinate = "D1"
+                            coordinate = "C1"
                         Else
                             If assex = "2" Then
-                                coordinate = "D2"
+                                coordinate = "C2"
                             Else
                                 If assex = "3" Then
-                                    coordinate = "D3"
+                                    coordinate = "C3"
                                 Else
                                     If assex = "4" Then
-                                        coordinate = "D4"
+                                        coordinate = "C4"
                                     Else
                                         If assex = "5" Then
-                                            coordinate = "D5"
+                                            coordinate = "C5"
                                         Else
                                             If assex = "6" Then
-                                                coordinate = "D6"
+                                                coordinate = "C6"
                                             Else
 
                                                 If assex = "7" Then
-                                                    coordinate = "D7"
+                                                    coordinate = "C7"
                                                 Else
 
                                                     If assex = "8" Then
-                                                        coordinate = "D8"
+                                                        coordinate = "C8"
                                                     Else
-                                                        coordinate = "D9"
+                                                        coordinate = "C9"
                                                     End If
-
                                                 End If
                                             End If
                                         End If
@@ -808,35 +771,36 @@ Module Program
                             End If
                         End If
                     Else
-                        If assey = "5" Then
+                        If assey = "4" Then
                             If assex = "1" Then
-                                coordinate = "E1"
+                                coordinate = "D1"
                             Else
                                 If assex = "2" Then
-                                    coordinate = "E2"
+                                    coordinate = "D2"
                                 Else
                                     If assex = "3" Then
-                                        coordinate = "E3"
+                                        coordinate = "D3"
                                     Else
                                         If assex = "4" Then
-                                            coordinate = "E4"
+                                            coordinate = "D4"
                                         Else
                                             If assex = "5" Then
-                                                coordinate = "E5"
+                                                coordinate = "D5"
                                             Else
                                                 If assex = "6" Then
-                                                    coordinate = "E6"
+                                                    coordinate = "D6"
                                                 Else
 
                                                     If assex = "7" Then
-                                                        coordinate = "E7"
+                                                        coordinate = "D7"
                                                     Else
 
                                                         If assex = "8" Then
-                                                            coordinate = "E8"
+                                                            coordinate = "D8"
                                                         Else
-                                                            coordinate = "E9"
+                                                            coordinate = "D9"
                                                         End If
+
                                                     End If
                                                 End If
                                             End If
@@ -845,34 +809,34 @@ Module Program
                                 End If
                             End If
                         Else
-                            If assey = "6" Then
+                            If assey = "5" Then
                                 If assex = "1" Then
-                                    coordinate = "F1"
+                                    coordinate = "E1"
                                 Else
                                     If assex = "2" Then
-                                        coordinate = "F2"
+                                        coordinate = "E2"
                                     Else
                                         If assex = "3" Then
-                                            coordinate = "F3"
+                                            coordinate = "E3"
                                         Else
                                             If assex = "4" Then
-                                                coordinate = "F4"
+                                                coordinate = "E4"
                                             Else
                                                 If assex = "5" Then
-                                                    coordinate = "F5"
+                                                    coordinate = "E5"
                                                 Else
                                                     If assex = "6" Then
-                                                        coordinate = "F6"
+                                                        coordinate = "E6"
                                                     Else
 
                                                         If assex = "7" Then
-                                                            coordinate = "F7"
+                                                            coordinate = "E7"
                                                         Else
 
                                                             If assex = "8" Then
-                                                                coordinate = "F8"
+                                                                coordinate = "E8"
                                                             Else
-                                                                coordinate = "F9"
+                                                                coordinate = "E9"
                                                             End If
                                                         End If
                                                     End If
@@ -882,34 +846,72 @@ Module Program
                                     End If
                                 End If
                             Else
-                                If assey = "7" Then
+                                If assey = "6" Then
                                     If assex = "1" Then
-                                        coordinate = "G1"
+                                        coordinate = "F1"
                                     Else
                                         If assex = "2" Then
-                                            coordinate = "G2"
+                                            coordinate = "F2"
                                         Else
                                             If assex = "3" Then
-                                                coordinate = "G3"
+                                                coordinate = "F3"
                                             Else
                                                 If assex = "4" Then
-                                                    coordinate = "G4"
+                                                    coordinate = "F4"
                                                 Else
                                                     If assex = "5" Then
-                                                        coordinate = "G5"
+                                                        coordinate = "F5"
                                                     Else
                                                         If assex = "6" Then
-                                                            coordinate = "G6"
+                                                            coordinate = "F6"
                                                         Else
 
                                                             If assex = "7" Then
-                                                                coordinate = "G7"
+                                                                coordinate = "F7"
                                                             Else
 
                                                                 If assex = "8" Then
-                                                                    coordinate = "G8"
+                                                                    coordinate = "F8"
                                                                 Else
-                                                                    coordinate = "G9"
+                                                                    coordinate = "F9"
+                                                                End If
+                                                            End If
+                                                        End If
+                                                    End If
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                Else
+                                    If assey = "7" Then
+                                        If assex = "1" Then
+                                            coordinate = "G1"
+                                        Else
+                                            If assex = "2" Then
+                                                coordinate = "G2"
+                                            Else
+                                                If assex = "3" Then
+                                                    coordinate = "G3"
+                                                Else
+                                                    If assex = "4" Then
+                                                        coordinate = "G4"
+                                                    Else
+                                                        If assex = "5" Then
+                                                            coordinate = "G5"
+                                                        Else
+                                                            If assex = "6" Then
+                                                                coordinate = "G6"
+                                                            Else
+
+                                                                If assex = "7" Then
+                                                                    coordinate = "G7"
+                                                                Else
+
+                                                                    If assex = "8" Then
+                                                                        coordinate = "G8"
+                                                                    Else
+                                                                        coordinate = "G9"
+                                                                    End If
                                                                 End If
                                                             End If
                                                         End If
@@ -921,75 +923,76 @@ Module Program
                                 End If
                             End If
                         End If
-                    End If
 
+                    End If
                 End If
             End If
-        End If
 
 
-        'FINE VARIABILI SCELTA COMPUTER
-        'TEST ONLY (togliere ' per far funzionare il test)
-        'Console.WriteLine(nave1C)
+            'FINE VARIABILI SCELTA COMPUTER
+            'TEST ONLY (togliere ' per far funzionare il test)
+            'Console.WriteLine(nave1C)
+            acapo = " "
+            Console.WriteLine(acapo)
 
-
-        Console.WriteLine("Capitano! pronti a sparare aspettiamo le coordinate!")
-        Gsparo = Console.ReadLine
-        If Gsparo = nave1C Then
-            Console.WriteLine("un ricognitore ci conferma che una fregata nemica è stata affondata")
-        Else
-            If Gsparo = nave2C Then
-                Console.WriteLine("colpo assegno incrociatore a picco")
+            Console.WriteLine("Capitano! pronti a sparare aspettiamo le coordinate!")
+            Gsparo = Console.ReadLine
+            If Gsparo = nave1C Then
+                Console.WriteLine("un ricognitore ci conferma che una fregata nemica è stata affondata")
             Else
-                Console.WriteLine("rapporti sul campo ci informano che il colpo è andato a vuoto")
+                If Gsparo = nave2C Then
+                    Console.WriteLine("colpo assegno incrociatore a picco")
+                Else
+                    Console.WriteLine("rapporti sul campo ci informano che il colpo è andato a vuoto")
+                End If
             End If
-        End If
 
-
-        'TEST ONLY (togliere ' per far funzionare il test)
-        'Console.WriteLine(coordinate)
-
-        Console.WriteLine(Ngiocatore & Space(1) & "il nemico si prepara a spararci addosso!!")
-        If coordinate Is freg1 Then
-            Console.WriteLine("Una fregata sta colando a picco")
-            freg1 = "0"
-            perdite = perdite + 1
-        Else
-            If coordinate Is caccia1 Then
-                Console.WriteLine("cacciatorpediniere alleato colpito e affondato")
-                caccia1 = "0"
+            Console.WriteLine(acapo)
+            'TEST ONLY (togliere ' per far funzionare il test)
+            'Console.WriteLine(coordinate)
+            perdite = 0
+            Console.WriteLine(Ngiocatore & Space(1) & "il nemico si prepara a spararci addosso!!")
+            If coordinate Is freg1 Then
+                Console.WriteLine("Una fregata sta colando a picco")
+                freg1 = "0"
                 perdite = perdite + 1
             Else
-                If coordinate Is caccia2 Then
-                    Console.WriteLine("Una nave alleata sta affondando in posizione" & caccia2)
-                    caccia2 = "0"
+                If coordinate Is caccia1 Then
+                    Console.WriteLine("cacciatorpediniere alleato colpito e affondato")
+                    caccia1 = "0"
                     perdite = perdite + 1
                 Else
-                    If coordinate Is freg2 Then
-                        Console.WriteLine("Fregata colpita da missili in posizione" & freg2 & "aggiustiamo il tiro per difenderci!")
+                    If coordinate Is caccia2 Then
+                        Console.WriteLine("Una nave alleata sta affondando in posizione" & caccia2)
+                        caccia2 = "0"
                         perdite = perdite + 1
-                        freg2 = "0"
                     Else
-                        If coordinate Is freg3 Then
-                            Console.WriteLine("Capitano! Fregata in fiamme stanno abbandonando la nave")
+                        If coordinate Is freg2 Then
+                            Console.WriteLine("Fregata colpita da missili in posizione" & freg2 & "aggiustiamo il tiro per difenderci!")
                             perdite = perdite + 1
-                            freg3 = "0"
+                            freg2 = "0"
                         Else
-                            If incro Is coordinate Then
-                                Console.WriteLine("Capitano hanno colpito l'ammiraglia")
+                            If coordinate Is freg3 Then
+                                Console.WriteLine("Capitano! Fregata in fiamme stanno abbandonando la nave")
                                 perdite = perdite + 1
-                                incro = "0"
+                                freg3 = "0"
                             Else
-                                Console.WriteLine("il colpo del nemico non è andato a segno!")
+                                If incro Is coordinate Then
+                                    Console.WriteLine("Capitano hanno colpito l'ammiraglia")
+                                    perdite = perdite + 1
+                                    incro = "0"
+                                Else
+                                    Console.WriteLine("il colpo del nemico non è andato a segno!")
+                                End If
                             End If
                         End If
                     End If
                 End If
             End If
-        End If
-        turno = turno + 1
-        Console.WriteLine("Fine del " & turno & " turno. Risultati dalla nostra parte navi affondate" & Space(1) & perdite)
-
+            Console.WriteLine(acapo)
+            turno = turno + 1
+            Console.WriteLine("Fine del " & turno & " turno. Risultati dalla nostra parte navi affondate" & Space(1) & perdite)
+        Loop
 
 
 
