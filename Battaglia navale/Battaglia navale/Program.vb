@@ -33,7 +33,9 @@ Module Program
 
         Console.WriteLine("Inserisci nome giocatore")
         Ngiocatore = Console.ReadLine
-
+        If Ngiocatore = "Rentedcoast" Then
+            Console.WriteLine("LODE AL SOLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
+        End If
 
         Console.WriteLine("vuoi vedere le regole? (s/n)")
         rules = Console.ReadLine
@@ -45,21 +47,21 @@ Module Program
               Else
                 Console.WriteLine("scegli 's' o 'n'")
                 rules = Console.ReadLine
-                If rules = "n" Then
+            If rules = "n" Then
+            Else
+                If rules = "f" Then
+                        Console.WriteLine("umh! strano che ci fai qui? tieni un regalino https://youtu.be/gWIgS6yWHN8")
+                        End
                 Else
-                    If rules = "f" Then
-                            Console.WriteLine("umh! strano che ci fai qui? tieni un regalino  https://www.youtube.com/watch?v=i1ojUmdF42U")
-                            End
+                    If rules = "s" Then
+                        Console.WriteLine(rulesr)
                     Else
-                      If rules = "s" Then
-                                Console.WriteLine(rulesr)
-                      Else
-                            End
+                        End
 
-                      End If
                     End If
                 End If
             End If
+        End If
         End If
         Console.WriteLine(" 
            +-----+---+---+---+---+---+---+---+---+
@@ -931,12 +933,13 @@ Module Program
 
             'FINE VARIABILI SCELTA COMPUTER
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(nave1C)
+            Console.WriteLine(nave1C)
             acapo = " "
             Console.WriteLine(acapo)
 
             Console.WriteLine("Capitano! pronti a sparare aspettiamo le coordinate!")
             Gsparo = Console.ReadLine
+            Gsparo = UCase(Gsparo)
             If Gsparo = nave1C Then
                 Console.WriteLine("un ricognitore ci conferma che una fregata nemica è stata affondata")
             Else
@@ -949,7 +952,7 @@ Module Program
 
             Console.WriteLine(acapo)
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(coordinate)
+            Console.WriteLine(coordinate)
             perdite = 0
             Console.WriteLine(Ngiocatore & Space(1) & "il nemico si prepara a spararci addosso!!")
             If coordinate Is freg1 Then
