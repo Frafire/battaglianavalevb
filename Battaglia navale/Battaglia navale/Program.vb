@@ -20,10 +20,12 @@ Module Program
         Dim nave2C As String
         Dim Gsparo As String
         Dim turno As Integer
-        Dim perdite As String
+        Dim perdite As Int16
         Dim incro As String
         Dim rulesr As String
         Dim acapo As String
+        Dim nave3c As String
+        Dim perditen As Int16
 
         'regole del gioco
         rulesr = "Benvenuto nel gioco di battaglia navale, ecco le regole! 
@@ -33,7 +35,9 @@ Module Program
 
         Console.WriteLine("Inserisci nome giocatore")
         Ngiocatore = Console.ReadLine
-
+        If Ngiocatore = "Rentedcoast" Then
+            Console.WriteLine("LODE AL SOLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
+        End If
 
         Console.WriteLine("vuoi vedere le regole? (s/n)")
         rules = Console.ReadLine
@@ -45,21 +49,21 @@ Module Program
               Else
                 Console.WriteLine("scegli 's' o 'n'")
                 rules = Console.ReadLine
-                If rules = "n" Then
+            If rules = "n" Then
+            Else
+                If rules = "f" Then
+                        Console.WriteLine("umh! strano che ci fai qui? tieni un regalino https://youtu.be/gWIgS6yWHN8")
+                        End
                 Else
-                    If rules = "f" Then
-                            Console.WriteLine("umh! strano che ci fai qui? tieni un regalino  https://www.youtube.com/watch?v=i1ojUmdF42U")
-                            End
+                    If rules = "s" Then
+                        Console.WriteLine(rulesr)
                     Else
-                      If rules = "s" Then
-                                Console.WriteLine(rulesr)
-                      Else
-                            End
+                        End
 
-                      End If
                     End If
                 End If
             End If
+        End If
         End If
         Console.WriteLine(" 
            +-----+---+---+---+---+---+---+---+---+
@@ -651,7 +655,281 @@ Module Program
                 End If
             End If
         End If
-        Do
+        assex = Int((9 * Rnd()) + 1)
+        assex = Int((7 * Rnd()) + 1)
+        If assey = "1" Then
+            If assex = "1" Then
+                nave3c = "A1"
+            Else
+                If assex = "2" Then
+                    nave3c = "A2"
+                Else
+                    If assex = "3" Then
+                        nave3c = "A3"
+                    Else
+                        If assex = "4" Then
+                            nave3c = "A4"
+                        Else
+                            If assex = "5" Then
+                                nave3c = "A5"
+                            Else
+                                If assex = "6" Then
+                                    nave3c = "A6"
+                                Else
+
+                                    If assex = "7" Then
+                                        nave3c = "A7"
+                                    Else
+
+                                        If assex = "8" Then
+                                            nave3c = "A8"
+                                        Else
+                                            nave3c = "A9"
+
+
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    End If
+
+                End If
+
+            End If
+        Else
+            If assey = "2" Then
+                If assex = "1" Then
+                    nave3c = "B1"
+                Else
+                    If assex = "2" Then
+                        nave3c = "B2"
+                    Else
+                        If assex = "3" Then
+                            nave3c = "B3"
+                        Else
+                            If assex = "4" Then
+                                nave3c = "B4"
+                            Else
+                                If assex = "5" Then
+                                    nave3c = "B5"
+                                Else
+                                    If assex = "6" Then
+                                        nave3c = "B6"
+                                    Else
+
+                                        If assex = "7" Then
+                                            nave3c = "B7"
+                                        Else
+
+                                            If assex = "8" Then
+                                                nave3c = "B8"
+                                            Else
+                                                nave3c = "B9"
+
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    End If
+                End If
+            Else
+                If assey = "3" Then
+                    If assex = "1" Then
+                        nave3c = "C1"
+                    Else
+                        If assex = "2" Then
+                            nave3c = "C2"
+                        Else
+                            If assex = "3" Then
+                                nave3c = "C3"
+                            Else
+                                If assex = "4" Then
+                                    nave3c = "C4"
+                                Else
+                                    If assex = "5" Then
+                                        nave3c = "C5"
+                                    Else
+                                        If assex = "6" Then
+                                            nave3c = "C6"
+                                        Else
+
+                                            If assex = "7" Then
+                                                nave3c = "C7"
+                                            Else
+
+                                                If assex = "8" Then
+                                                    nave3c = "C8"
+                                                Else
+                                                    nave3c = "C9"
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    End If
+                Else
+                    If assey = "4" Then
+                        If assex = "1" Then
+                            nave3c = "D1"
+                        Else
+                            If assex = "2" Then
+                                nave3c = "D2"
+                            Else
+                                If assex = "3" Then
+                                    nave3c = "D3"
+                                Else
+                                    If assex = "4" Then
+                                        nave3c = "D4"
+                                    Else
+                                        If assex = "5" Then
+                                            nave3c = "D5"
+                                        Else
+                                            If assex = "6" Then
+                                                nave3c = "D6"
+                                            Else
+
+                                                If assex = "7" Then
+                                                    nave3c = "D7"
+                                                Else
+
+                                                    If assex = "8" Then
+                                                        nave3c = "D8"
+                                                    Else
+                                                        nave3c = "D9"
+                                                    End If
+
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    Else
+                        If assey = "5" Then
+                            If assex = "1" Then
+                                nave3c = "E1"
+                            Else
+                                If assex = "2" Then
+                                    nave3c = "E2"
+                                Else
+                                    If assex = "3" Then
+                                        nave3c = "E3"
+                                    Else
+                                        If assex = "4" Then
+                                            nave3c = "E4"
+                                        Else
+                                            If assex = "5" Then
+                                                nave3c = "E5"
+                                            Else
+                                                If assex = "6" Then
+                                                    nave3c = "E6"
+                                                Else
+
+                                                    If assex = "7" Then
+                                                        nave3c = "E7"
+                                                    Else
+
+                                                        If assex = "8" Then
+                                                            nave3c = "E8"
+                                                        Else
+                                                            nave3c = "E9"
+                                                        End If
+                                                    End If
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        Else
+                            If assey = "6" Then
+                                If assex = "1" Then
+                                    nave3c = "F1"
+                                Else
+                                    If assex = "2" Then
+                                        nave3c = "F2"
+                                    Else
+                                        If assex = "3" Then
+                                            nave3c = "F3"
+                                        Else
+                                            If assex = "4" Then
+                                                nave3c = "F4"
+                                            Else
+                                                If assex = "5" Then
+                                                    nave3c = "F5"
+                                                Else
+                                                    If assex = "6" Then
+                                                        nave3c = "F6"
+                                                    Else
+
+                                                        If assex = "7" Then
+                                                            nave3c = "F7"
+                                                        Else
+
+                                                            If assex = "8" Then
+                                                                nave3c = "F8"
+                                                            Else
+                                                                nave3c = "F9"
+                                                            End If
+                                                        End If
+                                                    End If
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            Else
+                                If assey = "7" Then
+                                    If assex = "1" Then
+                                        nave3c = "G1"
+                                    Else
+                                        If assex = "2" Then
+                                            nave3c = "G2"
+                                        Else
+                                            If assex = "3" Then
+                                                nave3c = "G3"
+                                            Else
+                                                If assex = "4" Then
+                                                    nave3c = "G4"
+                                                Else
+                                                    If assex = "5" Then
+                                                        nave3c = "G5"
+                                                    Else
+                                                        If assex = "6" Then
+                                                            nave3c = "G6"
+                                                        Else
+
+                                                            If assex = "7" Then
+                                                                nave3c = "G7"
+                                                            Else
+
+                                                                If assex = "8" Then
+                                                                    nave3c = "G8"
+                                                                Else
+                                                                    nave3c = "G9"
+                                                                End If
+                                                            End If
+                                                        End If
+                                                    End If
+                                                End If
+                                            End If
+                                        End If
+                                    End If
+                                End If
+                            End If
+                        End If
+                    End If
+
+                End If
+            End If
+        End If
+        Do Until perdite = 8 Or perditen = 3
             'scelta computer
             assex = Int((9 * Rnd()) + 1)
             assey = Int((7 * Rnd()) + 1)
@@ -929,55 +1207,80 @@ Module Program
             End If
 
 
+
             'FINE VARIABILI SCELTA COMPUTER
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(nave1C)
+            If "frafire" = Ngiocatore Then
+                Console.WriteLine(nave1C & nave2C & nave3c)
+            Else
+
+            End If
             acapo = " "
             Console.WriteLine(acapo)
 
             Console.WriteLine("Capitano! pronti a sparare aspettiamo le coordinate!")
             Gsparo = Console.ReadLine
+            Gsparo = UCase(Gsparo)
             If Gsparo = nave1C Then
                 Console.WriteLine("un ricognitore ci conferma che una fregata nemica è stata affondata")
+                perditen = perditen + 1
             Else
                 If Gsparo = nave2C Then
                     Console.WriteLine("colpo assegno incrociatore a picco")
+                    perditen = perditen + 1
+
+
                 Else
-                    Console.WriteLine("rapporti sul campo ci informano che il colpo è andato a vuoto")
+                    If Gsparo = nave3c Then
+                        Console.WriteLine("colpo a segno")
+                        perditen = perditen + 1
+                    Else
+                        Console.WriteLine("rapporti sul campo ci informano che il colpo è andato a vuoto")
+                    End If
                 End If
+            End If
+            If perditen = 2 Then
+                Console.WriteLine("ne manca solo una nave")
+            Else
+
             End If
 
             Console.WriteLine(acapo)
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(coordinate)
+            If "frafire" = Ngiocatore Then
+                Console.WriteLine(coordinate)
+            Else
+
+            End If
+
             perdite = 0
             Console.WriteLine(Ngiocatore & Space(1) & "il nemico si prepara a spararci addosso!!")
-            If coordinate Is freg1 Then
+            If coordinate = freg1 Then
                 Console.WriteLine("Una fregata sta colando a picco")
                 freg1 = "0"
                 perdite = perdite + 1
             Else
-                If coordinate Is caccia1 Then
-                    Console.WriteLine("cacciatorpediniere alleato colpito e affondato")
+                If coordinate = caccia1 Then
+                    Console.WriteLine("il cacciatorpediniere ALLEATO è stato colpito e sta affondando")
                     caccia1 = "0"
                     perdite = perdite + 1
                 Else
-                    If coordinate Is caccia2 Then
-                        Console.WriteLine("Una nave alleata sta affondando in posizione" & caccia2)
+                    If coordinate = caccia2 Then
+                        Console.WriteLine("Una nave alleata sta affondando in posizione " & caccia2)
                         caccia2 = "0"
                         perdite = perdite + 1
                     Else
-                        If coordinate Is freg2 Then
-                            Console.WriteLine("Fregata colpita da missili in posizione" & freg2 & "aggiustiamo il tiro per difenderci!")
+                        If coordinate = freg2 Then
+                            Console.WriteLine("Fregata colpita da missili in posizione" & Space(1) & freg2 & Space(1) & "aggiustiamo il tiro per difenderci!")
                             perdite = perdite + 1
                             freg2 = "0"
                         Else
-                            If coordinate Is freg3 Then
+                            If coordinate = freg3 Then
                                 Console.WriteLine("Capitano! Fregata in fiamme stanno abbandonando la nave")
                                 perdite = perdite + 1
                                 freg3 = "0"
                             Else
-                                If incro Is coordinate Then
+                                If incro = coordinate Then
                                     Console.WriteLine("Capitano hanno colpito l'ammiraglia")
                                     perdite = perdite + 1
                                     incro = "0"
@@ -993,6 +1296,11 @@ Module Program
             turno = turno + 1
             Console.WriteLine("Fine del " & turno & " turno. Risultati dalla nostra parte navi affondate" & Space(1) & perdite)
         Loop
+        If perdite = 8 Then
+            Console.WriteLine("il nemico ci ha distrutto! ci riferaremo! ")
+        Else
+            Console.WriteLine(Ngiocatore & Space(1) & "abbiamo vinto! la flotta nemica è stat distrutta")
+        End If
 
 
 
