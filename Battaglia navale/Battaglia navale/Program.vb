@@ -20,11 +20,12 @@ Module Program
         Dim nave2C As String
         Dim Gsparo As String
         Dim turno As Integer
-        Dim perdite As String
+        Dim perdite As Int16
         Dim incro As String
         Dim rulesr As String
         Dim acapo As String
         Dim nave3c As String
+        Dim perditen As Int16
 
         'regole del gioco
         rulesr = "Benvenuto nel gioco di battaglia navale, ecco le regole! 
@@ -655,7 +656,7 @@ Module Program
             End If
         End If
         assex = Int((9 * Rnd()) + 1)
-        nave3c = Int((7 * Rnd()) + 1)
+        assex = Int((7 * Rnd()) + 1)
         If assey = "1" Then
             If assex = "1" Then
                 nave3c = "A1"
@@ -928,7 +929,7 @@ Module Program
                 End If
             End If
         End If
-        Do
+        Do Until perdite = 8 Or perditen = 3
             'scelta computer
             assex = Int((9 * Rnd()) + 1)
             assey = Int((7 * Rnd()) + 1)
@@ -1209,7 +1210,11 @@ Module Program
 
             'FINE VARIABILI SCELTA COMPUTER
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(nave1C)
+            If "frafire" = Ngiocatore Then
+                Console.WriteLine(nave1C & nave2C & nave3c)
+            Else
+
+            End If
             acapo = " "
             Console.WriteLine(acapo)
 
@@ -1218,24 +1223,36 @@ Module Program
             Gsparo = UCase(Gsparo)
             If Gsparo = nave1C Then
                 Console.WriteLine("un ricognitore ci conferma che una fregata nemica è stata affondata")
+                perditen = perditen + 1
             Else
                 If Gsparo = nave2C Then
                     Console.WriteLine("colpo assegno incrociatore a picco")
-
+                    perditen = perditen + 1
 
 
                 Else
                     If Gsparo = nave3c Then
                         Console.WriteLine("colpo a segno")
+                        perditen = perditen + 1
                     Else
                         Console.WriteLine("rapporti sul campo ci informano che il colpo è andato a vuoto")
                     End If
                 End If
             End If
+            If perditen = 2 Then
+                Console.WriteLine("ne manca solo una nave")
+            Else
+
+            End If
 
             Console.WriteLine(acapo)
             'TEST ONLY (togliere ' per far funzionare il test)
-            'Console.WriteLine(coordinate)
+            If "frafire" = Ngiocatore Then
+                Console.WriteLine(coordinate)
+            Else
+
+            End If
+
             perdite = 0
             Console.WriteLine(Ngiocatore & Space(1) & "il nemico si prepara a spararci addosso!!")
             If coordinate = freg1 Then
@@ -1279,6 +1296,11 @@ Module Program
             turno = turno + 1
             Console.WriteLine("Fine del " & turno & " turno. Risultati dalla nostra parte navi affondate" & Space(1) & perdite)
         Loop
+        If perdite = 8 Then
+            Console.WriteLine("il nemico ci ha distrutto! ci riferaremo! ")
+        Else
+            Console.WriteLine(Ngiocatore & Space(1) & "abbiamo vinto! la flotta nemica è stat distrutta")
+        End If
 
 
 
