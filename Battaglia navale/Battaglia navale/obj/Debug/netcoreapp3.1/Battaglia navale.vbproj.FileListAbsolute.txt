@@ -40,3 +40,17 @@ Z:\visual basic\battaglianavalevb-Frafire-patch-3\Battaglia navale\Battaglia nav
 Z:\visual basic\battaglianavalevb-Frafire-patch-3\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.dll
 Z:\visual basic\battaglianavalevb-Frafire-patch-3\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.pdb
 Z:\visual basic\battaglianavalevb-Frafire-patch-3\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.genruntimeconfig.cache
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.exe
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.deps.json
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.runtimeconfig.json
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.runtimeconfig.dev.json
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.dll
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\bin\Debug\netcoreapp3.1\Battaglia navale.pdb
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.vbproj.AssemblyReference.cache
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.AssemblyInfoInputs.cache
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.AssemblyInfo.vb
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.vbproj.CoreCompileInputs.cache
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.dll
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.pdb
+C:\Users\fatelli.giovanni\Downloads\battaglianavalevb-main\battaglianavalevb-main\Battaglia navale\Battaglia navale\obj\Debug\netcoreapp3.1\Battaglia navale.genruntimeconfig.cache
